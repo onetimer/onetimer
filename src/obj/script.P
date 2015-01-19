@@ -1,0 +1,10 @@
+obj/script.o: script.cpp script.h keystore.h crypter.h allocators.h key.h \
+ serialize.h version.h clientversion.h uint256.h hash.h sync.h \
+ threadsafety.h bignum.h util.h netbase.h compat.h main.h net.h mruset.h \
+ limitedmap.h protocol.h addrman.h bloom.h hashblock.h sph_luffa.h \
+ sph_types.h sph_cubehash.h sph_shavite.h sph_simd.h sph_echo.h
+script.cpp script.h keystore.h crypter.h allocators.h key.h :
+ serialize.h version.h clientversion.h uint256.h hash.h sync.h :
+ threadsafety.h bignum.h util.h netbase.h compat.h main.h net.h mruset.h :
+ limitedmap.h protocol.h addrman.h bloom.h hashblock.h sph_luffa.h :
+ sph_types.h sph_cubehash.h sph_shavite.h sph_simd.h sph_echo.h :

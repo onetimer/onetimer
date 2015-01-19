@@ -1,0 +1,30 @@
+obj/init.o: init.cpp txdb.h main.h bignum.h util.h uint256.h netbase.h \
+ serialize.h allocators.h version.h clientversion.h compat.h sync.h \
+ threadsafety.h net.h mruset.h limitedmap.h protocol.h addrman.h hash.h \
+ bloom.h script.h keystore.h crypter.h key.h hashblock.h sph_luffa.h \
+ sph_types.h sph_cubehash.h sph_shavite.h sph_simd.h sph_echo.h leveldb.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/db.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/iterator.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/slice.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/status.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/options.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/write_batch.h \
+ walletdb.h db.h base58.h bitcoinrpc.h json/json_spirit_reader_template.h \
+ json/json_spirit_value.h json/json_spirit_error_position.h \
+ json/json_spirit_writer_template.h json/json_spirit_utils.h init.h \
+ wallet.h ui_interface.h checkpointsync.h
+init.cpp txdb.h main.h bignum.h util.h uint256.h netbase.h :
+ serialize.h allocators.h version.h clientversion.h compat.h sync.h :
+ threadsafety.h net.h mruset.h limitedmap.h protocol.h addrman.h hash.h :
+ bloom.h script.h keystore.h crypter.h key.h hashblock.h sph_luffa.h :
+ sph_types.h sph_cubehash.h sph_shavite.h sph_simd.h sph_echo.h leveldb.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/db.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/iterator.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/slice.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/status.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/options.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/write_batch.h :
+ walletdb.h db.h base58.h bitcoinrpc.h json/json_spirit_reader_template.h :
+ json/json_spirit_value.h json/json_spirit_error_position.h :
+ json/json_spirit_writer_template.h json/json_spirit_utils.h init.h :
+ wallet.h ui_interface.h checkpointsync.h :

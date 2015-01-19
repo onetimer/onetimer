@@ -1,0 +1,26 @@
+obj/leveldb.o: leveldb.cpp leveldb.h serialize.h allocators.h version.h \
+ clientversion.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/db.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/iterator.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/slice.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/status.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/options.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/write_batch.h \
+ util.h uint256.h netbase.h compat.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/env.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/cache.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/filter_policy.h \
+ /crypto/geocoinq/geocoinq/src/leveldb/helpers/memenv/memenv.h
+leveldb.cpp leveldb.h serialize.h allocators.h version.h :
+ clientversion.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/db.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/iterator.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/slice.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/status.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/options.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/write_batch.h :
+ util.h uint256.h netbase.h compat.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/env.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/cache.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/include/leveldb/filter_policy.h :
+ /crypto/geocoinq/geocoinq/src/leveldb/helpers/memenv/memenv.h :
